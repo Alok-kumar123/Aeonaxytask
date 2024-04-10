@@ -101,6 +101,7 @@ const Nextonextfrom = () => {
           onClick={() => handleOptionClick('Mathematical Thinking')}
         />
       </OptionCardContainer>
+  { console.log(selectedOption)}
     </Container>
   );
 };
