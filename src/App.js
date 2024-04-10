@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import MultiStepForm from './components/Multiform';
+ 
 import LoadingBar from './components/Loading';
-import Test from './components/Test';
+ 
 import Question from './components/Multiform';
 import Nextfrom from './components/nextfrom';
 import Nextonextfrom from './components/Nextonextfrom';
