@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import '../App.css'
-import icon1 from './icons8-woman-student-48.png'
+ 
 import 'katex/dist/katex.min.css';
 import { InlineMath } from 'react-katex';
 
@@ -82,7 +82,7 @@ function Question({ question, onNext, onPrevious, isFirstQuestion }) {
               checked={selectedOption === option.value}
             />
            <label htmlFor={`option-${index}`}>
-              <img src={option.url} style={{height:30 , width: 30}}/>{option.label}
+              <img src={option.url} style={{height:30 , width: 30}} alt="abbndsnc"/>{option.label}
             </label>
           </div>:
           <>
