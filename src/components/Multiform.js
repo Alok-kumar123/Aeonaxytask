@@ -149,7 +149,7 @@ function Question({ question, onNext, onPrevious, isFirstQuestion }) {
       >
         <img
           src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg"
-          alt="Your Image"
+          alt="Yourasdjadk"
           style={{ maxWidth: '100%', maxHeight: '100%' }}
         />
       </div>
